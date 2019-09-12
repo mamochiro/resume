@@ -1,0 +1,35 @@
+@import './color';
+
+body {
+  font-family: 'Sarabun', sans-serif !important;
+}
+
+.gmm {
+  &.btn {
+    &__login {
+      background-color: color(gmmbase);
+      padding: 15px;
+      width: 100%;
+    }
+  }
+
+  &.bg {
+    &__gradient {
+      &__gmmstyle {
+        background: linear-gradient(87deg, #090b75 0, #0005b5 100%) !important;
+      }
+    }
+    &__defaultgmmstyle {
+      background-color: #001e4f !important;
+    }
+  }
+
+  &.home {
+    ul {
+      list-style: none;
+      li {
+        text-decoration: none;
+      }
+    }
+  }
+}

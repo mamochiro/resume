@@ -1,0 +1,15 @@
+{
+  "semi": false,
+  "printWidth": 100,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "*.gql",
+      "options": {
+        "parser": "graphql"
+      }
+    }
+  ]
+}
