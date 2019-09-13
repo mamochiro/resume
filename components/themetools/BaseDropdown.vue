@@ -8,7 +8,6 @@
     :aria-expanded="isOpen"
     @click="toggleDropDown"
   >
-    >
     <slot name="title">
       <a class="dropdown-toggle nav-link" :class="{ 'no-caret': hideArrow }" data-toggle="dropdown">
         <i :class="icon"></i>
