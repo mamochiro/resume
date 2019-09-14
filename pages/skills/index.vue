@@ -1,0 +1,106 @@
+<template>
+  <div>
+    <base-header
+      class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
+      :style="
+        `min-height: 600px; background-image: url(${imgCover}); background-size: cover; background-position: center top;`
+      "
+    >
+      <!-- Mask -->
+      <span class="mask bg-gradient-success opacity-8"></span>
+      <!-- Header container -->
+      <div class="container-fluid d-flex align-items-center">
+        <div class="row">
+          <div class="col-lg-7 col-md-10">
+            <h1 class="display-2 text-white">Hello Mark Kie</h1>
+            <p class="text-white mt-0 mb-5">
+              This is your profile page. You can see the progress you've made with your work and
+              manage your projects or assigned tasks
+            </p>
+            <!-- <a href="#!" class="btn btn-info">Edit profile</a> -->
+          </div>
+        </div>
+      </div>
+    </base-header>
+
+    <!--Charts-->
+    <div class="container-fluid mt--7">
+      <!--Tables-->
+      <div class="row mt-5">
+        <!-- <div class="col-xl-8 mb-5 mb-xl-0">
+          <PageVisitsTable></PageVisitsTable>
+        </div> -->
+        <div class="col-12 col-md-6">
+          <TrafficTable></TrafficTable>
+        </div>
+        <div class="col-12 col-md-6">
+          <TrafficTable></TrafficTable>
+        </div>
+      </div>
+      <!--End tables-->
+    </div>
+  </div>
+</template>
+
+<script>
+// Charts
+// import PageVisitsTable from '~/components/common/PageVisitsTable'
+import TrafficTable from '~/components/common/TrafficTable'
+import * as chartConfigs from '~/components/themetools/Charts/config'
+// import LineChart from '~/components/themetools/Charts/LineChart'
+// import BarChart from '~/components/themetools/Charts/BarChart'
+
+// Tables
+
+export default {
+  components: {
+    // LineChart,
+    // BarChart,
+    // PageVisitsTable,
+    TrafficTable,
+  },
+  data() {
+    return {
+      bigLineChart: {
+        allData: [[0, 20, 10, 30, 15, 40, 20, 60, 60], [0, 20, 5, 25, 10, 30, 15, 40, 40]],
+        activeIndex: 0,
+        chartData: {
+          datasets: [],
+          labels: [],
+        },
+        extraOptions: chartConfigs.blueChartOptions,
+      },
+      redBarChart: {
+        chartData: {
+          labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          datasets: [
+            {
+              label: 'Sales',
+              data: [25, 20, 30, 22, 17, 29],
+            },
+          ],
+        },
+      },
+    }
+  },
+  mounted() {
+    this.initBigChart(0)
+  },
+  methods: {
+    initBigChart(index) {
+      const chartData = {
+        datasets: [
+          {
+            label: 'Performance',
+            data: this.bigLineChart.allData[index],
+          },
+        ],
+        labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      }
+      this.bigLineChart.chartData = chartData
+      this.bigLineChart.activeIndex = index
+    },
+  },
+}
+</script>
+<style></style>

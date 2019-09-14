@@ -2,7 +2,9 @@
   <div>
     <base-header
       class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
-      style="min-height: 600px; background-image: url(img/theme/profile-cover.jpg); background-size: cover; background-position: center top;"
+      :style="
+        `min-height: 600px; background-image: url(${imgCover}); background-size: cover; background-position: center top;`
+      "
     >
       <!-- Mask -->
       <span class="mask bg-gradient-success opacity-8"></span>
@@ -15,7 +17,7 @@
               This is your profile page. You can see the progress you've made with your work and
               manage your projects or assigned tasks
             </p>
-            <a href="#!" class="btn btn-info">Edit profile</a>
+            <!-- <a href="#!" class="btn btn-info">Edit profile</a> -->
           </div>
         </div>
       </div>
@@ -29,7 +31,10 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img src="img/theme/team-4-800x800.jpg" class="rounded-circle" />
+                    <img
+                      :src="require('~/assets/img/theme/team-1-800x800.jpg')"
+                      class="rounded-circle"
+                    />
                   </a>
                 </div>
               </div>
@@ -60,21 +65,26 @@
                 </div>
               </div>
               <div class="text-center">
-                <h3>Jessica Jones<span class="font-weight-light">, 27</span></h3>
+                <h3>Sarawut Nawawisitkul<span class="font-weight-light">, 24</span></h3>
                 <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bucharest, Romania
+                  <i class="ni location_pin mr-2"></i>Narathiwat,Thailand
+                </div>
+                <div class="h5 mt-4">Software Developer</div>
+                <div>
+                  <i class="ni ni-collection mr-2"></i>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS
                 </div>
                 <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim
-                  Officer
+                  <i class="ni ni-air-baloon"></i>COLLEGE OF COMPUTING . MAJOR IN SOFTWARE
+                  ENGINEERING (2014- 2018 )
                 </div>
-                <div><i class="ni education_hat mr-2"></i>University of Computer Science</div>
                 <hr class="my-4" />
                 <p>
-                  Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music.
+                  I graduated from Prince of Songkla University Phuket Campus’ within the College of
+                  Computing in Software Engineering Program. I looking for a software developer
+                  position with software concepts and services, education, skills and skills will be
+                  fully utilized to improve the overall efficiency of the company.
                 </p>
-                <a href="#">Show more</a>
+                <!-- <a href="#">Show more</a> -->
               </div>
             </div>
           </div>
@@ -104,6 +114,7 @@
                         label="Username"
                         placeholder="Username"
                         input-classes="form-control-alternative"
+                        disable
                       />
                     </div>
                     <div class="col-lg-6">
@@ -222,6 +233,7 @@ export default {
         zipCode: '',
         about: '',
       },
+      imgCover: require('~/assets/img/theme/team-1-800x800.jpg'),
     }
   },
 }

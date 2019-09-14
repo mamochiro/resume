@@ -3,12 +3,18 @@
     <side-bar :background-color="sidebarBackground" short-title="Argon" title="Argon">
       <template slot="links">
         <sidebar-item
-          :link="{ name: 'User Profile', icon: 'ni ni-single-02 text-yellow', path: '/profile' }"
+          :link="{ name: 'User Profile', icon: 'ni ni-single-02 text-yellow', path: '/' }"
+        />
+        <sidebar-item
+          :link="{ name: 'Skill', icon: 'ni ni-single-02 text-yellow', path: '/skills' }"
+        />
+        <sidebar-item
+          :link="{ name: 'Experience', icon: 'ni ni-single-02 text-yellow', path: '/experience' }"
         />
       </template>
     </side-bar>
     <div class="main-content" :data="sidebarBackground">
-      <dashboard-navbar>dd</dashboard-navbar>
+      <dashboard-navbar></dashboard-navbar>
 
       <div @click="toggleSidebar">
         <fade-transition :duration="200" origin="center top" mode="out-in">

@@ -1,35 +1,33 @@
 <template>
-  <footer class="footer px-4">
-    <div class="row align-items-center justify-content-lg-between">
+  <footer class="footer bg-gradient-success px-4">
+    <div class="row ml-3 align-items-center justify-content-lg-between">
       <div class="col-lg-6">
-        <div class="copyright text-center text-lg-left text-muted">
-          © {{ year }}
-          <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank"
-            >Creative Tim
-          </a>
-          &
-          <a href="https://www.binarcode.com" class="font-weight-bold ml-1" target="_blank"
-            >Binar Code
-          </a>
+        <strong class="head">Contract</strong>
+        <div class="copyright text-center text-lg-left text-muted mt-3">
+          <p><i class="ni ni-email-83"></i> Email : sarawut.nawawisitkul@gmail.com</p>
+          <p><i class="ni ni-headphones"></i> Phone : 091-8363922</p>
         </div>
       </div>
-      <div class="col-lg-6">
-        <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-          <li class="nav-item">
-            <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank"
-              >About Us</a
+      <div class="col-lg-6 social">
+        <strong class="head">Social</strong>
+        <ul class="social clearfix">
+          <li>
+            <a
+              href="https://www.facebook.com/Mark.Sarawut"
+              target="_blank"
+              class="social-icon facebook"
             >
+              Facebook
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.creative-tim.com/license" class="nav-link" target="_blank"
-              >License</a
+          <li>
+            <a
+              href="https://www.facebook.com/Mark.Sarawut"
+              target="_blank"
+              class="social-icon line"
             >
+              Line
+            </a>
           </li>
         </ul>
       </div>
@@ -45,4 +43,31 @@ export default {
   },
 }
 </script>
-<style></style>
+<style lang="scss" scoped>
+footer {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 300;
+  p {
+    color: #fff;
+  }
+  .social {
+    li {
+      float: left;
+    }
+    .social-icon {
+      text-indent: -9999px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+    .line {
+      background: url('~assets/svg/line.svg') center center no-repeat;
+    }
+    .facebook {
+      background: url('~assets/svg/facebook-logo-button.svg') center center no-repeat;
+    }
+  }
+}
+</style>
