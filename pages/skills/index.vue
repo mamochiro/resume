@@ -31,10 +31,15 @@
           <PageVisitsTable></PageVisitsTable>
         </div> -->
         <div class="col-12 col-md-6">
-          <TrafficTable></TrafficTable>
+          <SkillTable />
         </div>
         <div class="col-12 col-md-6">
-          <TrafficTable></TrafficTable>
+          <ApiTable />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <DatabaseTable />
         </div>
       </div>
       <!--End tables-->
@@ -45,7 +50,9 @@
 <script>
 // Charts
 // import PageVisitsTable from '~/components/common/PageVisitsTable'
-import TrafficTable from '~/components/common/TrafficTable'
+import SkillTable from '~/components/common/SkillTable'
+import ApiTable from '~/components/common/ApiTable'
+import DatabaseTable from '~/components/common/DatabaseTable'
 import * as chartConfigs from '~/components/themetools/Charts/config'
 // import LineChart from '~/components/themetools/Charts/LineChart'
 // import BarChart from '~/components/themetools/Charts/BarChart'
@@ -57,7 +64,9 @@ export default {
     // LineChart,
     // BarChart,
     // PageVisitsTable,
-    TrafficTable,
+    SkillTable,
+    ApiTable,
+    DatabaseTable,
   },
   data() {
     return {

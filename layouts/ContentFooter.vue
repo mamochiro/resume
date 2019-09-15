@@ -5,12 +5,12 @@
         <strong class="head">Contract</strong>
         <div class="copyright text-center text-lg-left text-muted mt-3">
           <p><i class="ni ni-email-83"></i> Email : sarawut.nawawisitkul@gmail.com</p>
-          <p><i class="ni ni-headphones"></i> Phone : 091-8363922</p>
+          <p><i class="ni ni-mobile-button"></i> Phone : 091-8363922</p>
         </div>
       </div>
       <div class="col-lg-6 social">
         <strong class="head">Social</strong>
-        <ul class="social clearfix">
+        <ul class="social clearfix text-center nobull">
           <li>
             <a
               href="https://www.facebook.com/Mark.Sarawut"
@@ -21,11 +21,7 @@
             </a>
           </li>
           <li>
-            <a
-              href="https://www.facebook.com/Mark.Sarawut"
-              target="_blank"
-              class="social-icon line"
-            >
+            <a href="http://line.me/ti/p/mamochiro" target="_blank" class="social-icon line">
               Line
             </a>
           </li>
@@ -52,6 +48,7 @@ footer {
     color: #fff;
   }
   .social {
+    margin-block-end: auto;
     li {
       float: left;
     }
@@ -68,6 +65,9 @@ footer {
     .facebook {
       background: url('~assets/svg/facebook-logo-button.svg') center center no-repeat;
     }
+  }
+  .nobull {
+    list-style-type: none;
   }
 }
 </style>

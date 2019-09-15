@@ -3,13 +3,13 @@
     <side-bar :background-color="sidebarBackground" short-title="Argon" title="Argon">
       <template slot="links">
         <sidebar-item
-          :link="{ name: 'User Profile', icon: 'ni ni-single-02 text-yellow', path: '/' }"
+          :link="{ name: 'Infomation', icon: 'ni ni-single-02 text-yellow', path: '/' }"
         />
         <sidebar-item
-          :link="{ name: 'Skill', icon: 'ni ni-single-02 text-yellow', path: '/skills' }"
+          :link="{ name: 'Skill', icon: 'ni ni-chart-bar-32 text-success', path: '/skills' }"
         />
         <sidebar-item
-          :link="{ name: 'Experience', icon: 'ni ni-single-02 text-yellow', path: '/experience' }"
+          :link="{ name: 'Experience', icon: 'ni ni-archive-2 text-primary', path: '/experience' }"
         />
       </template>
     </side-bar>

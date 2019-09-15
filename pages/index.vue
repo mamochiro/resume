@@ -40,30 +40,12 @@
               </div>
             </div>
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-              <div class="d-flex justify-content-between">
+              <!-- <div class="d-flex justify-content-between">
                 <base-button size="sm" type="info" class="mr-4">Connect</base-button>
                 <base-button size="sm" type="default" class="float-right">Message</base-button>
-              </div>
+              </div> -->
             </div>
-            <div class="card-body pt-0 pt-md-4">
-              <div class="row">
-                <div class="col">
-                  <div class="card-profile-stats d-flex justify-content-center mt-md-5">
-                    <div>
-                      <span class="heading">22</span>
-                      <span class="description">Friends</span>
-                    </div>
-                    <div>
-                      <span class="heading">10</span>
-                      <span class="description">Photos</span>
-                    </div>
-                    <div>
-                      <span class="heading">89</span>
-                      <span class="description">Comments</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="card-body pt-0 pt-md-4 mt-7">
               <div class="text-center">
                 <h3>Sarawut Nawawisitkul<span class="font-weight-light">, 24</span></h3>
                 <div class="h5 font-weight-300">
@@ -71,11 +53,11 @@
                 </div>
                 <div class="h5 mt-4">Software Developer</div>
                 <div>
-                  <i class="ni ni-collection mr-2"></i>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS
+                  <i class="ni ni-hat-3 mr-2"></i>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS
                 </div>
                 <div class="h5 mt-4">
-                  <i class="ni ni-air-baloon"></i>COLLEGE OF COMPUTING . MAJOR IN SOFTWARE
-                  ENGINEERING (2014- 2018 )
+                  <i class="ni ni-collection mr-2"></i>COLLEGE OF COMPUTING . MAJOR IN SOFTWARE
+                  ENGINEERING (2014- 2018)
                 </div>
                 <hr class="my-4" />
                 <p>
