@@ -41,6 +41,14 @@
         <div class="col-12 col-md-6">
           <DatabaseTable />
         </div>
+        <div class="col-12 col-md-6">
+          <DevOpsTable />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <OsTable />
+        </div>
       </div>
       <!--End tables-->
     </div>
@@ -53,6 +61,8 @@
 import SkillTable from '~/components/common/SkillTable'
 import ApiTable from '~/components/common/ApiTable'
 import DatabaseTable from '~/components/common/DatabaseTable'
+import DevOpsTable from '~/components/common/DevOpsTable'
+import OsTable from '~/components/common/OsTable'
 import * as chartConfigs from '~/components/themetools/Charts/config'
 // import LineChart from '~/components/themetools/Charts/LineChart'
 // import BarChart from '~/components/themetools/Charts/BarChart'
@@ -67,6 +77,8 @@ export default {
     SkillTable,
     ApiTable,
     DatabaseTable,
+    DevOpsTable,
+    OsTable,
   },
   data() {
     return {

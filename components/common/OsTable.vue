@@ -3,7 +3,7 @@
     <div class="card-header bg-dark text-white border-0">
       <div class="row align-items-center">
         <div class="col">
-          <h3 class="mb-0 text-white">Database Skills</h3>
+          <h3 class="mb-0 text-white">OS Skills</h3>
         </div>
         <div class="col text-right">
           <!-- <base-button size="sm" type="primary">See all</base-button> -->
@@ -47,22 +47,22 @@ export default {
     return {
       tableData: [
         {
-          name: 'Marai DB',
+          name: 'OSX',
           visitors: '1,480',
           progress: 60,
           progressType: 'gradient-danger',
         },
         {
-          name: 'Mongo DB',
+          name: 'Windows',
           visitors: '5,480',
           progress: 70,
           progressType: 'gradient-success',
         },
         {
-          name: 'Microsoft SQL Server',
-          visitors: '4,807',
-          progress: 80,
-          progressType: 'gradient-primary',
+          name: 'Linux',
+          visitors: '5,480',
+          progress: 70,
+          progressType: 'gradient-success',
         },
       ],
     }

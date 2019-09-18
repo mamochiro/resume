@@ -47,22 +47,16 @@ export default {
     return {
       tableData: [
         {
-          name: 'Marai DB',
+          name: 'Docker',
           visitors: '1,480',
           progress: 60,
           progressType: 'gradient-danger',
         },
         {
-          name: 'Mongo DB',
+          name: 'AWS web service',
           visitors: '5,480',
           progress: 70,
           progressType: 'gradient-success',
-        },
-        {
-          name: 'Microsoft SQL Server',
-          visitors: '4,807',
-          progress: 80,
-          progressType: 'gradient-primary',
         },
       ],
     }

@@ -14,17 +14,14 @@
     <div class="table-responsive">
       <base-table thead-classes="thead-light" :data="tableData">
         <template slot="columns">
-          <th>Referral</th>
-          <th>Visitors</th>
-          <th></th>
+          <th>Skill</th>
+          <th>Level</th>
         </template>
 
         <template slot-scope="{ row }">
           <th scope="row">{{ row.name }}</th>
-          <td>{{ row.visitors }}</td>
           <td>
             <div class="d-flex align-items-center">
-              <span class="mr-2">{{ row.progress }}%</span>
               <base-progress
                 :type="row.progressType"
                 class="pt-0"
@@ -57,6 +54,12 @@ export default {
           progressType: 'gradient-success',
         },
         {
+          name: 'JQuery',
+          visitors: '5,480',
+          progress: 70,
+          progressType: 'gradient-success',
+        },
+        {
           name: 'Node.JS',
           visitors: '4,807',
           progress: 80,
@@ -70,6 +73,18 @@ export default {
         },
         {
           name: 'Adonis',
+          visitors: '2,645',
+          progress: 30,
+          progressType: 'gradient-warning',
+        },
+        {
+          name: 'Vue.JS',
+          visitors: '2,645',
+          progress: 30,
+          progressType: 'gradient-warning',
+        },
+        {
+          name: 'Nuxt.JS',
           visitors: '2,645',
           progress: 30,
           progressType: 'gradient-warning',

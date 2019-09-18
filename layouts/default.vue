@@ -3,10 +3,10 @@
     <side-bar :background-color="sidebarBackground" short-title="Argon" title="Argon">
       <template slot="links">
         <sidebar-item
-          :link="{ name: 'Infomation', icon: 'ni ni-single-02 text-yellow', path: '/' }"
+          :link="{ name: 'About Me', icon: 'ni ni-single-02 text-yellow', path: '/' }"
         />
         <sidebar-item
-          :link="{ name: 'Skill', icon: 'ni ni-chart-bar-32 text-success', path: '/skills' }"
+          :link="{ name: 'Skills', icon: 'ni ni-chart-bar-32 text-success', path: '/skills' }"
         />
         <sidebar-item
           :link="{ name: 'Experience', icon: 'ni ni-archive-2 text-primary', path: '/experience' }"

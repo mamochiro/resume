@@ -6,6 +6,14 @@
         <div class="copyright text-center text-lg-left text-muted mt-3">
           <p><i class="ni ni-email-83"></i> Email : sarawut.nawawisitkul@gmail.com</p>
           <p><i class="ni ni-mobile-button"></i> Phone : 091-8363922</p>
+          <p>
+            <i class="ni ni-laptop"></i> Gitlab :
+            <a href="https://github.com/mamochiro">https://gitlab.com/mamochiro</a>
+          </p>
+          <p>
+            <i class="ni ni-laptop"></i> Github :
+            <a href="https://github.com/mamochiro">https://github.com/mamochiro</a>
+          </p>
         </div>
       </div>
       <div class="col-lg-6 social">
