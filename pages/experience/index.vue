@@ -2,25 +2,12 @@
   <div>
     <base-header
       class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
-      :style="
-        `min-height: 600px; background-image: url(${imgCover}); background-size: cover; background-position: center top;`
-      "
+      :style="`background-size: cover; background-position: center top;`"
     >
       <!-- Mask -->
       <span class="mask bg-gradient-success opacity-8"></span>
       <!-- Header container -->
-      <div class="container-fluid d-flex align-items-center">
-        <div class="row">
-          <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hello Mark Kie</h1>
-            <p class="text-white mt-0 mb-5">
-              This is your profile page. You can see the progress you've made with your work and
-              manage your projects or assigned tasks
-            </p>
-            <!-- <a href="#!" class="btn btn-info">Edit profile</a> -->
-          </div>
-        </div>
-      </div>
+      <div class="container-fluid d-flex align-items-center"></div>
     </base-header>
     <div class="container-fluid mt--7">
       <div class="row">
@@ -32,8 +19,8 @@
                 <div class="h5 font-weight-300">
                   <i class="ni location_pin mr-2"></i>Phuket,Thailand
                 </div>
-                <div class="h5 mt-4">SOFTWARE DEVELOPMENT | AUG 2017 - DEC 2017 (Internship)</div>
-                <hr class="my-4" />
+                <div class="h5 mt-4">SOFTWARE DEVELOPMENT (Backend & IT-Support)</div>
+                <div class="h5 mt-4">AUG 2017 - DEC 2017 (Internship)</div>
                 <div class="text-left">
                   <ul>
                     <li>
@@ -66,28 +53,32 @@
                 <div class="h5 font-weight-300">
                   <i class="ni location_pin mr-2"></i>Bangkok,Thailand
                 </div>
-                <div class="h5 mt-4">SOFTWARE DEVELOPMENT | JUL 2018 - Present (Full-Time)</div>
+                <div class="h5 mt-4">SOFTWARE DEVELOPMENT (Web-Backend)</div>
+                <div class="h5 mt-4">JUL 2018 - Present (Full-Time)</div>
                 <hr class="my-4" />
                 <div class="text-left">
                   <ul>
                     <li>
-                      Report the access data from users in the information system of the center.
+                      Mother's day website campaign of major cinema
                     </li>
                     <li>
-                      Update the information needed to run a Synze media company (basic information
-                      that requires images, videos, and more)
+                      Mother's day website campaign of nexcare 3m
                     </li>
                     <li>
-                      The engine to load bit-torrent files using Node.Js technology used in the
-                      development
+                      Edit the system of
+                      <a href="https://www.wevacationcenter.com/"
+                        >https://www.wevacationcenter.com/</a
+                      >
                     </li>
                     <li>
-                      Make a web service that works with the server to load torrent files, using
-                      Node. Js technology
+                      Ecommerce website system
+                      <a href="https://www.wevacationcenter.com/">https://www.horizontfood.com/</a>
+                    </li>
+                    <li>
+                      Sharp Thailand web dashboard
                     </li>
                   </ul>
                 </div>
-                <!-- <a href="#">Show more</a> -->
               </div>
             </div>
           </div>

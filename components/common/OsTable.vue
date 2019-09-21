@@ -49,19 +49,19 @@ export default {
         {
           name: 'OSX',
           visitors: '1,480',
-          progress: 60,
-          progressType: 'gradient-danger',
+          progress: 80,
+          progressType: 'gradient-success',
         },
         {
           name: 'Windows',
           visitors: '5,480',
-          progress: 70,
+          progress: 80,
           progressType: 'gradient-success',
         },
         {
           name: 'Linux',
           visitors: '5,480',
-          progress: 70,
+          progress: 80,
           progressType: 'gradient-success',
         },
       ],

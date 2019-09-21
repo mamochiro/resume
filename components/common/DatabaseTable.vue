@@ -49,20 +49,20 @@ export default {
         {
           name: 'Marai DB',
           visitors: '1,480',
-          progress: 60,
-          progressType: 'gradient-danger',
+          progress: 80,
+          progressType: 'gradient-success',
         },
         {
           name: 'Mongo DB',
           visitors: '5,480',
-          progress: 70,
-          progressType: 'gradient-success',
+          progress: 40,
+          progressType: 'gradient-warning',
         },
         {
           name: 'Microsoft SQL Server',
           visitors: '4,807',
-          progress: 80,
-          progressType: 'gradient-primary',
+          progress: 85,
+          progressType: 'gradient-success',
         },
       ],
     }

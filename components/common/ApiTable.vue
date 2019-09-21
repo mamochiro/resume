@@ -45,14 +45,14 @@ export default {
         {
           name: 'Restful API',
           visitors: '1,480',
-          progress: 60,
-          progressType: 'gradient-danger',
+          progress: 80,
+          progressType: 'gradient-success',
         },
         {
           name: 'GraphQL',
           visitors: '5,480',
           progress: 70,
-          progressType: 'gradient-success',
+          progressType: 'gradient-info',
         },
       ],
     }

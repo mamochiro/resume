@@ -12,12 +12,11 @@
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hello Mark Kie</h1>
+            <h1 class="display-2 text-white">Hello,I'm Sarawut Nawawisitkul</h1>
             <p class="text-white mt-0 mb-5">
-              This is your profile page. You can see the progress you've made with your work and
-              manage your projects or assigned tasks
+              This is my profile page I want to know various things About me even more Thanks for
+              reading
             </p>
-            <!-- <a href="#!" class="btn btn-info">Edit profile</a> -->
           </div>
         </div>
       </div>
@@ -66,13 +65,63 @@
                   position with software concepts and services, education, skills and skills will be
                   fully utilized to improve the overall efficiency of the company.
                 </p>
-                <!-- <a href="#">Show more</a> -->
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-xl-8 order-xl-1">
+          <card shadow type="secondary">
+            <div slot="header" class="bg-white border-0">
+              <div class="row align-items-center">
+                <div class="col-8">
+                  <h3 class="mb-0">Abount Me</h3>
+                </div>
+                <div class="col-4 text-right">
+                  <!-- <a href="#!" class="btn btn-sm btn-primary">Settings</a> -->
+                </div>
+              </div>
+            </div>
+            <template>
+              <div class="pl-lg-4">
+                <div class="row">
+                  <div class="col">
+                    It’s tempting to ask these questions, but they won’t help you assess whether
+                    your content is appropriate for your audience. The “like” question is
+                    popular—particularly in market research—but it’s irrelevant in design research
+                    because whether you like something has little to do with whether you understand
+                    it or will use it. Dan Formosa provides a great explanation about why you should
+                    avoid asking people what they like during user research. For what’s wrong with
+                    the “understand” question, it helps to know a little bit about how people read.
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col">
+                    It’s tempting to ask these questions, but they won’t help you assess whether
+                    your content is appropriate for your audience. The “like” question is
+                    popular—particularly in market research—but it’s irrelevant in design research
+                    because whether you like something has little to do with whether you understand
+                    it or will use it. Dan Formosa provides a great explanation about why you should
+                    avoid asking people what they like during user research. For what’s wrong with
+                    the “understand” question, it helps to know a little bit about how people read.
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col">
+                    It’s tempting to ask these questions, but they won’t help you assess whether
+                    your content is appropriate for your audience. The “like” question is
+                    popular—particularly in market research—but it’s irrelevant in design research
+                    because whether you like something has little to do with whether you understand
+                    it or will use it. Dan Formosa provides a great explanation about why you should
+                    avoid asking people what they like during user research. For what’s wrong with
+                    the “understand” question, it helps to know a little bit about how people read.
+                  </div>
+                </div>
+              </div>
+            </template>
+          </card>
+        </div>
+        <!-- <div class="col-xl-8 order-xl-1">
           <card shadow type="secondary">
             <div slot="header" class="bg-white border-0">
               <div class="row align-items-center">
@@ -131,7 +180,7 @@
                   </div>
                 </div>
                 <hr class="my-4" />
-                <!-- Address -->
+                
                 <h6 class="heading-small text-muted mb-4">Contact information</h6>
                 <div class="pl-lg-4">
                   <div class="row">
@@ -176,7 +225,7 @@
                   </div>
                 </div>
                 <hr class="my-4" />
-                <!-- Description -->
+                
                 <h6 class="heading-small text-muted mb-4">About me</h6>
                 <div class="pl-lg-4">
                   <div class="form-group">
@@ -194,7 +243,7 @@ A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea
               </form>
             </template>
           </card>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
