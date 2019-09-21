@@ -12,6 +12,23 @@
           :link="{ name: 'Experience', icon: 'ni ni-archive-2 text-primary', path: '/experience' }"
         />
       </template>
+      <!-- Heading -->
+      <template slot="after-links">
+        <h6 class="navbar-heading text-muted">Contract</h6>
+        <!-- Navigation -->
+        <ul class="navbar-nav mb-md-3">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/Mark.Sarawut">
+              <i class="fa fa-facebook-square"></i>Facebook
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://line.me/ti/p/mamochiro">
+              <i class="ni ni-single-02"></i>Line
+            </a>
+          </li>
+        </ul>
+      </template>
     </side-bar>
     <div class="main-content" :data="sidebarBackground">
       <dashboard-navbar></dashboard-navbar>

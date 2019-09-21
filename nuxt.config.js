@@ -4,7 +4,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    // title: process.env.npm_package_name || '',
+    title: 'Resume - Sarawut Nawawisitkul' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,7 +24,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/scss/argon.scss', '@/assets/vendor/nucleo/css/nucleo.css'],
+  css: [
+    '@/assets/scss/argon.scss',
+    '@/assets/vendor/nucleo/css/nucleo.css',
+    '@/assets/vendor/font-awesome/css/font-awesome.css',
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -54,6 +59,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},  // eslint-disable-line
+    extend(config, ctx) {}, // eslint-disable-line
   },
 }

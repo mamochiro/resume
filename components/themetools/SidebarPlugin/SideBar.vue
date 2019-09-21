@@ -98,6 +98,7 @@
         <!-- <h6 class="navbar-heading text-muted">
           Documentation
         </h6> -->
+        <slot name="after-links" />
         <!--Navigation-->
         <ul class="navbar-nav mb-md-3" />
       </div>
