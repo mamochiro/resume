@@ -36,7 +36,7 @@
             <a slot="title" class="nav-link" href="#" role="button">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src />
+                  <img alt="Image placeholder" :src="logo" />
                 </span>
               </div>
             </a>
@@ -116,7 +116,7 @@ export default {
   props: {
     logo: {
       type: String,
-      default: require('~/assets/img/image/logo.png'),
+      default: require('~/assets/img/theme/profile.jpg'),
       description: 'Sidebar app logo',
     },
     autoClose: {
