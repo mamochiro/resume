@@ -14,8 +14,8 @@
           <div class="col-lg-7 col-md-10">
             <h1 class="display-2 text-white">Hello,I'm Sarawut Nawawisitkul</h1>
             <p class="text-white mt-0 mb-5">
-              This is my profile page I want to know various things About me even more Thanks for
-              reading
+              This is personal website! If You want to know various things About me even more Thank
+              You for Reading Me!
             </p>
           </div>
         </div>
@@ -30,10 +30,7 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img
-                      :src="require('~/assets/img/theme/team-1-800x800.jpg')"
-                      class="rounded-circle"
-                    />
+                    <img :src="imgProfile" class="rounded-circle" />
                   </a>
                 </div>
               </div>
@@ -50,21 +47,16 @@
                 <div class="h5 font-weight-300">
                   <i class="ni location_pin mr-2"></i>Narathiwat,Thailand
                 </div>
-                <div class="h5 mt-4">Software Developer</div>
+                <!-- <div class="h5 mt-4">Software Developer</div> -->
                 <div>
-                  <i class="ni ni-hat-3 mr-2"></i>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS
+                  <i class="ni ni-hat-3 mt-3 mr-2"></i>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS
                 </div>
                 <div class="h5 mt-4">
                   <i class="ni ni-collection mr-2"></i>COLLEGE OF COMPUTING . MAJOR IN SOFTWARE
                   ENGINEERING (2014- 2018)
                 </div>
-                <hr class="my-4" />
-                <p>
-                  I graduated from Prince of Songkla University Phuket Campus’ within the College of
-                  Computing in Software Engineering Program. I looking for a software developer
-                  position with software concepts and services, education, skills and skills will be
-                  fully utilized to improve the overall efficiency of the company.
-                </p>
+                <!-- <hr class="my-4" /> -->
+                <p></p>
               </div>
             </div>
           </div>
@@ -85,165 +77,30 @@
             <template>
               <div class="pl-lg-4">
                 <div class="row">
-                  <div class="col">
-                    It’s tempting to ask these questions, but they won’t help you assess whether
-                    your content is appropriate for your audience. The “like” question is
-                    popular—particularly in market research—but it’s irrelevant in design research
-                    because whether you like something has little to do with whether you understand
-                    it or will use it. Dan Formosa provides a great explanation about why you should
-                    avoid asking people what they like during user research. For what’s wrong with
-                    the “understand” question, it helps to know a little bit about how people read.
+                  <div class="col content">
+                    &emsp;&emsp;&emsp;&emsp; Hi, my name is Sarawut Nawawisitkul and I'm a junior
+                    software engineer. Welcome to my personal website!
                   </div>
                 </div>
-                <div class="row mt-5">
-                  <div class="col">
-                    It’s tempting to ask these questions, but they won’t help you assess whether
-                    your content is appropriate for your audience. The “like” question is
-                    popular—particularly in market research—but it’s irrelevant in design research
-                    because whether you like something has little to do with whether you understand
-                    it or will use it. Dan Formosa provides a great explanation about why you should
-                    avoid asking people what they like during user research. For what’s wrong with
-                    the “understand” question, it helps to know a little bit about how people read.
+                <div class="row mt-4">
+                  <div class="col content">
+                    &emsp;&emsp;&emsp;&emsp; I graduated from Prince of Songkla University Phuket
+                    Campus’ within the College of Computing in Software Engineering Program. I
+                    looking for a software developer position with software concepts and services,
+                    education, skills and skills will be fully utilized to improve the overall
+                    efficiency of the company.
                   </div>
                 </div>
-                <div class="row mt-5">
-                  <div class="col">
-                    It’s tempting to ask these questions, but they won’t help you assess whether
-                    your content is appropriate for your audience. The “like” question is
-                    popular—particularly in market research—but it’s irrelevant in design research
-                    because whether you like something has little to do with whether you understand
-                    it or will use it. Dan Formosa provides a great explanation about why you should
-                    avoid asking people what they like during user research. For what’s wrong with
-                    the “understand” question, it helps to know a little bit about how people read.
+                <div class="row mt-4">
+                  <div class="col content">
+                    &emsp;&emsp;&emsp;&emsp; Now I have 1 year working experience. I want to find a
+                    new, interesting job. I am interested in backend develooper work.
                   </div>
                 </div>
               </div>
             </template>
           </card>
         </div>
-        <!-- <div class="col-xl-8 order-xl-1">
-          <card shadow type="secondary">
-            <div slot="header" class="bg-white border-0">
-              <div class="row align-items-center">
-                <div class="col-8">
-                  <h3 class="mb-0">My account</h3>
-                </div>
-                <div class="col-4 text-right">
-                  <a href="#!" class="btn btn-sm btn-primary">Settings</a>
-                </div>
-              </div>
-            </div>
-            <template>
-              <form @submit.prevent>
-                <h6 class="heading-small text-muted mb-4">User information</h6>
-                <div class="pl-lg-4">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        v-model="model.username"
-                        alternative=""
-                        label="Username"
-                        placeholder="Username"
-                        input-classes="form-control-alternative"
-                        disable
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <base-input
-                        v-model="model.email"
-                        alternative=""
-                        label="Email address"
-                        placeholder="jesse@example.com"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        v-model="model.firstName"
-                        alternative=""
-                        label="First name"
-                        placeholder="First name"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <base-input
-                        v-model="model.lastName"
-                        alternative=""
-                        label="Last name"
-                        placeholder="Last name"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <hr class="my-4" />
-                
-                <h6 class="heading-small text-muted mb-4">Contact information</h6>
-                <div class="pl-lg-4">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <base-input
-                        v-model="model.address"
-                        alternative=""
-                        label="Address"
-                        placeholder="Home Address"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <base-input
-                        v-model="model.city"
-                        alternative=""
-                        label="City"
-                        placeholder="City"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                    <div class="col-lg-4">
-                      <base-input
-                        v-model="model.country"
-                        alternative=""
-                        label="Country"
-                        placeholder="Country"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                    <div class="col-lg-4">
-                      <base-input
-                        v-model="model.zipCode"
-                        alternative=""
-                        label="Postal code"
-                        placeholder="Postal code"
-                        input-classes="form-control-alternative"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <hr class="my-4" />
-                
-                <h6 class="heading-small text-muted mb-4">About me</h6>
-                <div class="pl-lg-4">
-                  <div class="form-group">
-                    <base-input alternative="" label="About Me">
-                      <textarea
-                        rows="4"
-                        class="form-control form-control-alternative"
-                        placeholder="A few words about you ..."
-                      >
-A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea
-                      >
-                    </base-input>
-                  </div>
-                </div>
-              </form>
-            </template>
-          </card>
-        </div> -->
       </div>
     </div>
   </div>
@@ -264,9 +121,14 @@ export default {
         zipCode: '',
         about: '',
       },
-      imgCover: require('~/assets/img/theme/team-1-800x800.jpg'),
+      imgCover: require('~/assets/img/theme/cover.jpg'),
+      imgProfile: require('~/assets/img/theme/profile.jpg'),
     }
   },
 }
 </script>
-<style></style>
+<style lang="scss">
+.content {
+  font-size: 18px;
+}
+</style>

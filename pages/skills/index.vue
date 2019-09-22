@@ -7,7 +7,17 @@
       <!-- Mask -->
       <span class="mask bg-gradient-success opacity-8"></span>
       <!-- Header container -->
-      <div class="container-fluid d-flex align-items-center"></div>
+      <div class="container-fluid d-flex align-items-center">
+        <div class="row">
+          <div class="col-lg-7 col-md-10">
+            <h1 class="display-2 text-white">What I do</h1>
+            <p class="text-white mt-0 mb-5">
+              I have more than 1 year experience building software for clients all over the world.
+              Below is a quick overview of my main technical skill sets and technologies I use.
+            </p>
+          </div>
+        </div>
+      </div>
     </base-header>
 
     <!--Charts-->

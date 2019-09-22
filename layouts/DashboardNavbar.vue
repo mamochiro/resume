@@ -16,7 +16,7 @@
         <base-dropdown class="nav-link pr-0">
           <div slot="title" class="media align-items-center">
             <span class="avatar avatar-sm rounded-circle">
-              <img alt="Image placeholder" :src="image" />
+              <img alt="Image placeholder" :src="imgProfile" />
             </span>
             <div class="media-body ml-2 d-none d-lg-block">
               <span class="mb-0 text-sm  font-weight-bold">Sarawut Nawawisitkul</span>
@@ -49,7 +49,7 @@ export default {
       activeNotifications: false,
       showMenu: false,
       searchQuery: '',
-      image: require('~/assets/img/theme/team-4-800x800.jpg'),
+      imgProfile: require('~/assets/img/theme/profile.jpg'),
     }
   },
   methods: {

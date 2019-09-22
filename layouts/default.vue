@@ -1,6 +1,11 @@
 <template>
   <div class="wrapper">
-    <side-bar :background-color="sidebarBackground" short-title="Argon" title="Argon">
+    <side-bar
+      :background-color="sidebarBackground"
+      :logo="imgProfile"
+      short-title="Argon"
+      title="Argon"
+    >
       <template slot="links">
         <sidebar-item
           :link="{ name: 'About Me', icon: 'ni ni-single-02 text-yellow', path: '/' }"
@@ -9,7 +14,11 @@
           :link="{ name: 'Skills', icon: 'ni ni-chart-bar-32 text-success', path: '/skills' }"
         />
         <sidebar-item
-          :link="{ name: 'Experience', icon: 'ni ni-archive-2 text-primary', path: '/experience' }"
+          :link="{
+            name: 'Work Experience',
+            icon: 'ni ni-archive-2 text-primary',
+            path: '/experience',
+          }"
         />
       </template>
       <!-- Heading -->
@@ -56,6 +65,7 @@ export default {
   data() {
     return {
       sidebarBackground: 'vue', // vue|blue|orange|green|red|primary
+      imgProfile: require('~/assets/img/theme/profile.jpg'),
     }
   },
   methods: {
