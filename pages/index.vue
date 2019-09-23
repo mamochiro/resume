@@ -94,7 +94,7 @@
                 <div class="row mt-4">
                   <div class="col content">
                     &emsp;&emsp;&emsp;&emsp; Now I have 1 year working experience. I want to find a
-                    new, interesting job. I am interested in backend develooper work.
+                    new, interesting job. I am interested in backend developer work.
                   </div>
                 </div>
               </div>

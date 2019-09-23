@@ -72,7 +72,7 @@
                     </li>
                     <li>
                       Ecommerce website system
-                      <a href="https://www.wevacationcenter.com/">https://www.horizontfood.com/</a>
+                      <a href="https://www.horizontfood.com/">https://www.horizontfood.com/</a>
                     </li>
                     <li>
                       Sharp Thailand web dashboard
