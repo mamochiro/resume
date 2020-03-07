@@ -1,3 +1,12 @@
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/resume/',
+        },
+      }
+    : {}
+
 export default {
   mode: 'universal',
   /*
@@ -61,4 +70,5 @@ export default {
      */
     extend(config, ctx) {}, // eslint-disable-line
   },
+  ...routerBase,
 }
