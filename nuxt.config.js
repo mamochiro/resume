@@ -68,6 +68,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    publicPath: '/assets/',
     extend(config, ctx) {}, // eslint-disable-line
   },
 
