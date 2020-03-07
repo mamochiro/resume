@@ -70,5 +70,10 @@ export default {
      */
     extend(config, ctx) {}, // eslint-disable-line
   },
+
+  // for github page
+  router: {
+    base: '/resume/',
+  },
   ...routerBase,
 }
