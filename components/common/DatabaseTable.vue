@@ -48,20 +48,22 @@ export default {
       tableData: [
         {
           name: 'Marai DB',
-          visitors: '1,480',
           progress: 80,
           progressType: 'gradient-success',
         },
         {
           name: 'Mongo DB',
-          visitors: '5,480',
           progress: 40,
           progressType: 'gradient-warning',
         },
         {
           name: 'Microsoft SQL Server',
-          visitors: '4,807',
           progress: 85,
+          progressType: 'gradient-success',
+        },
+        {
+          name: 'Postgresql',
+          progress: 80,
           progressType: 'gradient-success',
         },
       ],

@@ -3,7 +3,7 @@
     <div class="card-header bg-dark text-white border-0">
       <div class="row align-items-center">
         <div class="col">
-          <h3 class="mb-0 text-white">OS Skills</h3>
+          <h3 class="mb-0 text-white">Experience In OS</h3>
         </div>
         <div class="col text-right">
           <!-- <base-button size="sm" type="primary">See all</base-button> -->
@@ -48,21 +48,18 @@ export default {
       tableData: [
         {
           name: 'OSX',
-          visitors: '1,480',
-          progress: 80,
+          progress: 90,
           progressType: 'gradient-success',
         },
         {
           name: 'Windows',
-          visitors: '5,480',
           progress: 80,
           progressType: 'gradient-success',
         },
         {
           name: 'Linux',
-          visitors: '5,480',
-          progress: 80,
-          progressType: 'gradient-success',
+          progress: 40,
+          progressType: 'gradient-warning',
         },
       ],
     }

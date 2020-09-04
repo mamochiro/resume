@@ -3,7 +3,7 @@
     <div class="card-header bg-dark text-white border-0">
       <div class="row align-items-center">
         <div class="col">
-          <h3 class="mb-0 text-white">DevOPS Skills</h3>
+          <h3 class="mb-0 text-white">Experience In Cloud Server</h3>
         </div>
         <div class="col text-right">
           <!-- <base-button size="sm" type="primary">See all</base-button> -->
@@ -48,15 +48,18 @@ export default {
       tableData: [
         {
           name: 'Docker',
-          visitors: '1,480',
+          progress: 50,
+          progressType: 'gradient-warning',
+        },
+        {
+          name: 'AWS web service',
           progress: 20,
           progressType: 'gradient-danger',
         },
         {
-          name: 'AWS web service',
-          visitors: '5,480',
-          progress: 20,
-          progressType: 'gradient-danger',
+          name: 'Google Cloud',
+          progress: 60,
+          progressType: 'gradient-success',
         },
       ],
     }

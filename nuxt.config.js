@@ -68,7 +68,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    publicPath: '/assets/',
+    publicPath: '/assets/', // for build file ext : git hub page
     extend(config, ctx) {}, // eslint-disable-line
   },
 

@@ -3,7 +3,7 @@
     <div class="card-header border-0">
       <div class="row align-items-center">
         <div class="col">
-          <h3 class="mb-0">Api Skills</h3>
+          <h3 class="mb-0">Web Service Protocol</h3>
         </div>
         <div class="col text-right">
           <!-- <base-button size="sm" type="primary">See all</base-button> -->
@@ -44,15 +44,23 @@ export default {
       tableData: [
         {
           name: 'Restful API',
-          visitors: '1,480',
           progress: 80,
-          progressType: 'gradient-success',
+          progressType: 'gradient-info',
         },
         {
           name: 'GraphQL',
-          visitors: '5,480',
-          progress: 70,
+          progress: 80,
           progressType: 'gradient-info',
+        },
+        {
+          name: 'GRPC',
+          progress: 70,
+          progressType: 'gradient-success',
+        },
+        {
+          name: 'Protocol Buffers',
+          progress: 70,
+          progressType: 'gradient-success',
         },
       ],
     }

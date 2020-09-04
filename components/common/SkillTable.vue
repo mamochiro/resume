@@ -43,51 +43,48 @@ export default {
       tableData: [
         {
           name: 'PHP',
-          visitors: '1,480',
           progress: 70,
-          progressType: 'gradient-success',
+          progressType: 'gradient-info',
         },
         {
           name: 'Laravel',
-          visitors: '5,480',
           progress: 85,
-          progressType: 'gradient-success',
+          progressType: 'gradient-info',
         },
         {
           name: 'JQuery',
-          visitors: '5,480',
           progress: 65,
-          progressType: 'gradient-info',
+          progressType: 'gradient-success',
         },
         {
           name: 'Node.JS',
-          visitors: '4,807',
-          progress: 65,
-          progressType: 'gradient-info',
-        },
-        {
-          name: 'Lumen',
-          visitors: '3,678',
           progress: 75,
           progressType: 'gradient-info',
         },
         {
+          name: 'Lumen',
+          progress: 75,
+          progressType: 'gradient-success',
+        },
+        {
           name: 'Adonis',
-          visitors: '2,645',
           progress: 60,
-          progressType: 'gradient-info',
+          progressType: 'gradient-success',
         },
         {
           name: 'Vue.JS',
-          visitors: '2,645',
           progress: 55,
-          progressType: 'gradient-info',
+          progressType: 'gradient-success',
         },
         {
           name: 'Nuxt.JS',
-          visitors: '2,645',
           progress: 55,
-          progressType: 'gradient-info',
+          progressType: 'gradient-success',
+        },
+        {
+          name: 'Golang',
+          progress: 60,
+          progressType: 'gradient-success',
         },
       ],
     }

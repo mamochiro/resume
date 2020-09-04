@@ -54,7 +54,7 @@
                   <i class="ni location_pin mr-2"></i>Bangkok,Thailand
                 </div>
                 <div class="h5 mt-4">SOFTWARE DEVELOPMENT (Web-Backend)</div>
-                <div class="h5 mt-4">JUL 2018 - Present (Full-Time)</div>
+                <div class="h5 mt-4">JUL 2018 - MAR 2019 (Full-Time)</div>
                 <hr class="my-4" />
                 <div class="text-left">
                   <ul>
@@ -76,6 +76,35 @@
                     </li>
                     <li>
                       Sharp Thailand web dashboard
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- robowealth -->
+      <div class="row mt-1">
+        <div class="col-xl-6 order-xl-2 mb-5 mb-xl-0">
+          <div class="card card-profile shadow bg-dark text-white">
+            <div class="card-body pt-0 pt-md-4">
+              <div class="text-center">
+                <h3 class="text-white">ROBOWEALH</h3>
+                <div class="h5 font-weight-300 text-white">
+                  <i class="ni location_pin mr-2"></i>Bangkok,Thailand
+                </div>
+                <div class="h5 mt-4 text-white">SOFTWARE ENGINEER</div>
+                <div class="h5 mt-4 text-white">MAR 2019 - Present (Full-Time)</div>
+                <hr class="my-4" />
+                <div class="text-left">
+                  <ul>
+                    <li>
+                      ...
+                    </li>
+                    <li>
+                      ...
                     </li>
                   </ul>
                 </div>
