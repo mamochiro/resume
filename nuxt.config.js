@@ -70,6 +70,9 @@ export default {
      */
     publicPath: '/assets/', // for build file ext : git hub page
     extend(config, ctx) {}, // eslint-disable-line
+    babel: {
+      compact: true,
+    },
   },
 
   // for github page
