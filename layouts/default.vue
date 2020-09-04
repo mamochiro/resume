@@ -20,6 +20,13 @@
             path: '/experience',
           }"
         />
+        <sidebar-item
+          :link="{
+            name: 'Transcript And CV',
+            icon: 'ni ni-briefcase-24 text-dark',
+            path: '/transcript',
+          }"
+        />
       </template>
       <!-- Heading -->
       <template slot="after-links">

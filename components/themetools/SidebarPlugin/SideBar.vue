@@ -9,7 +9,7 @@
         <span class="navbar-toggler-icon" />
       </NavbarToggleButton>
       <router-link class="navbar-brand" to="/">
-        <img :src="logo" class="navbar-brand-img" alt="..." />
+        <img :src="profile" class="navbar-brand-img" alt="..." />
       </router-link>
 
       <slot name="mobile-right">
@@ -36,7 +36,7 @@
             <a slot="title" class="nav-link" href="#" role="button">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" :src="logo" />
+                  <img alt="Image placeholder" :src="profile2" />
                 </span>
               </div>
             </a>
@@ -118,6 +118,14 @@ export default {
       type: String,
       default: require('~/assets/img/theme/profile.jpg'),
       description: 'Sidebar app logo',
+    },
+    profile: {
+      type: String,
+      default: require('~/assets/img/profile/profile_1.jpg'),
+    },
+    profile2: {
+      type: String,
+      default: require('~/assets/img/profile/profile_2.jpg'),
     },
     autoClose: {
       type: Boolean,

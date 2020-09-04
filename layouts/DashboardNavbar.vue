@@ -49,7 +49,7 @@ export default {
       activeNotifications: false,
       showMenu: false,
       searchQuery: '',
-      imgProfile: require('~/assets/img/theme/profile.jpg'),
+      imgProfile: require('~/assets/img/profile/profile_2.jpg'),
     }
   },
   methods: {

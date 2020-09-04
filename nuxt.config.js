@@ -1,12 +1,3 @@
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/resume/',
-        },
-      }
-    : {}
-
 export default {
   mode: 'universal',
   /*
@@ -77,7 +68,13 @@ export default {
 
   // for github page
   router: {
-    base: '/resume/',
+    base:
+      process.env.DEPLOY_ENV === 'GH_PAGES'
+        ? {
+            router: {
+              base: '/resume/',
+            },
+          }
+        : '/',
   },
-  ...routerBase,
 }
