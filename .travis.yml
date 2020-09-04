@@ -12,9 +12,8 @@ branches:
 
 install:
   - npm install
-  - npm install --save-dev webpack
   - npm run generate
-  - npm rebuild node-sass
+  # - npm rebuild node-sass
 
 script:
   - echo "Skipping tests"
