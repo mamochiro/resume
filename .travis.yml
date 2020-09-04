@@ -21,7 +21,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: 7204e61fb9385107e340eca8a9266900e0fdf218
   target-branch: gh-pages
   local-dir: dist
   on:
