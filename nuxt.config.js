@@ -74,13 +74,6 @@ export default {
 
   // for github page
   router: {
-    base:
-      process.env.DEPLOY_ENV === 'GH_PAGES'
-        ? {
-            router: {
-              base: '/resume/',
-            },
-          }
-        : '/',
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/resume/' : '',
   },
 }
