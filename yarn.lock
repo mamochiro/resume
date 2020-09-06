@@ -663,6 +663,13 @@
     js-levenshtein "^1.1.3"
     semver "^5.5.0"
 
+"@babel/runtime@7.9.2":
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
+  integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.5.5":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
@@ -2097,7 +2104,7 @@ bootstrap-vue@^2.0.0-rc.11:
     portal-vue "^2.1.6"
     vue-functional-data-merge "^3.1.0"
 
-"bootstrap@>=4.3.1 <5.0.0", bootstrap@^4.1.3:
+bootstrap@4.3.1, "bootstrap@>=4.3.1 <5.0.0":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
@@ -4774,6 +4781,11 @@ hable@^2.2.1:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/hable/-/hable-2.3.2.tgz#7867ffec0b67e63136937613d9a0bc646ac9d7fe"
   integrity sha512-qJ9WoXl/15LNlG1KeAuBjCNGStUb+MCQ5biPxOmwRyESH8CSWwZB4xEnzCduuQ3I/mlgui28t8/oMAGT1Rpb2g==
+
+hammerjs@^2.0.6, hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
 
 handlebars@^4.1.2:
   version "4.2.0"
@@ -8735,6 +8747,11 @@ regenerator-runtime@^0.13.2:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
 
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+
 regenerator-transform@^0.14.0:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.1.tgz#3b2fce4e1ab7732c08f665dfdb314749c7ddd2fb"
@@ -9942,6 +9959,13 @@ timed-out@^4.0.0:
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
   integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
 
+timeline-vuejs@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/timeline-vuejs/-/timeline-vuejs-1.1.7.tgz#56b5c242fbf15cd477171836fb2802c8b57a1bae"
+  integrity sha512-YZ4R0fw/ETpVkFrNImXWgtJDiIvi3aPDByRcRMVAkm1TiI927OoOmPvsK8vTG5exB69UG5KxKgNdj6ucoWW3RQ==
+  dependencies:
+    vue "^2.5.17"
+
 timers-browserify@^2.0.4:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.11.tgz#800b1f3eee272e5bc53ee465a04d0e804c31211f"
@@ -10425,6 +10449,18 @@ vue-clipboard2@0.3.0:
   dependencies:
     clipboard "^2.0.0"
 
+vue-cool-lightbox@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/vue-cool-lightbox/-/vue-cool-lightbox-2.5.1.tgz#1ace31f19f78bfd32de2b7abccc3c94fe8023f88"
+  integrity sha512-3gu9cWmt49oQmLnzaU0mEYqxyMqKraCdO/fV3oaNkBeBdttl4jVYUqipsKqG4SabhVMF2Kqj02C5HUdVBPz20Q==
+  dependencies:
+    vue "^2.6.10"
+
+vue-cute-timeline@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/vue-cute-timeline/-/vue-cute-timeline-1.2.8.tgz#4b705704e23ee4bf72416306c8bf131b6288387e"
+  integrity sha512-gMNZv2d+vtCha/iZjn4BJGT9Muvdy/AGNm+eN5B54aD1/51BCS4hO31A6CFL1rQZB4OW6Hc7tW3drb8RN13+pg==
+
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-5.0.0.tgz#00f4e4da94ec974b821a26ff0ed0f7a78402b8a1"
@@ -10464,6 +10500,15 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
+vue-image-lightbox@^7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/vue-image-lightbox/-/vue-image-lightbox-7.1.3.tgz#2a6b96299a2d3d1488b6818070b252d3c3231a79"
+  integrity sha512-5h+SiE0GLIBLsrC9spl0VZFbz1yFvj1ee1tfaHc4sfE3XCo3vKi6OSFI0r4MKhbhnfFIFiwE1l+vgkH35jlGgQ==
+  dependencies:
+    "@babel/runtime" "7.9.2"
+    hammerjs "^2.0.8"
+    vue-lazyload "^1.3.2"
+
 vue-jest@^3.0.3:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-3.0.5.tgz#d6f124b542dcbff207bf9296c19413f4c40b70c9"
@@ -10479,6 +10524,11 @@ vue-jest@^3.0.3:
     source-map "^0.5.6"
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-lazyload@^1.3.2, vue-lazyload@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.3.3.tgz#4df50a271bde9b74c3caf7a228d6e0af50d5682f"
+  integrity sha512-uHnq0FTEeNmqnbBC2aRKlmtd9LofMZ6Q3mWvgfLa+i9vhxU8fDK+nGs9c1iVT85axSua/AUnMttIq3xPaU9G3A==
 
 vue-loader@^15.7.1:
   version "15.7.1"
@@ -10556,10 +10606,22 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue-touch@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vue-touch/-/vue-touch-1.1.0.tgz#f69da3b4bf033f3f7bcf5864011a6b4d4bb596b9"
+  integrity sha1-9p2jtL8DPz97z1hkARprTUu1lrk=
+  dependencies:
+    hammerjs "^2.0.6"
+
 vue2-transitions@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/vue2-transitions/-/vue2-transitions-0.3.0.tgz#765fc0d743103fcfe2d10f431697d8873a075c17"
   integrity sha512-m1ad8K8kufqiEhj5gXHkkqOioI5sW0FaMbRiO0Tv2WFfGbO2eIKrfkFiO3HPQtMJboimaLCN4p/zL81clLbG4w==
+
+vue@^2.5.17:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
+  integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
 vue@^2.6.10:
   version "2.6.10"

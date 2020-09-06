@@ -28,6 +28,7 @@ export default {
     '@/assets/scss/argon.scss',
     '@/assets/vendor/nucleo/css/nucleo.css',
     '@/assets/vendor/font-awesome/css/font-awesome.css',
+    './node_modules/timeline-vuejs/dist/timeline-vuejs.css',
   ],
   /*
    ** Plugins to load before mounting the App
@@ -36,6 +37,11 @@ export default {
     {
       src: '~/plugins/argon-dashboard.js',
       ssr: false,
+    },
+    {
+      src: '~/plugins/lazyload.js',
+      ssr: false,
+      mode: 'client',
     },
   ],
   /*

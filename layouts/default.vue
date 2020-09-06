@@ -22,7 +22,7 @@
         />
         <sidebar-item
           :link="{
-            name: 'Transcript And CV',
+            name: 'CV And Transcript',
             icon: 'ni ni-briefcase-24 text-dark',
             path: '/transcript',
           }"
@@ -36,6 +36,11 @@
           <li class="nav-item">
             <a class="nav-link" href="https://www.facebook.com/Mark.Sarawut">
               <i class="fa fa-facebook-square"></i>Facebook
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/sarawut-nawwawisitkul-4431aa181/">
+              <i class="fa fa-linkedin"></i>Linkend
             </a>
           </li>
           <li class="nav-item">
