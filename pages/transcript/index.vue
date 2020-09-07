@@ -9,11 +9,10 @@
       <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
-          <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Transcript</h1>
+          <div class="col-12">
+            <h1 class="display-2 text-white">My CV And Transcript</h1>
             <p class="text-white mt-0 mb-5">
-              I have more than 1 year experience building software for clients. Below is a quick
-              overview of my main technical skill sets and technologies I use.
+              <!-- dis -->
             </p>
           </div>
         </div>
@@ -44,12 +43,12 @@
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                     <base-button type="default" @click="openGallery(index)">Preview</base-button>
-                    <a :download="image.title" :href="image.src"
-                      ><base-button type="primary">
+                    <a :download="image.title" :href="image.src">
+                      <base-button type="primary">
                         <i class="ni ni-image"></i> Download JPG</base-button
-                      ></a
-                    >
-                    <base-button type="danger">
+                      >
+                    </a>
+                    <base-button type="danger" @click="openLink(image.filePDF)">
                       <i class="ni ni-single-copy-04"></i> Download PDF</base-button
                     >
                   </div>
@@ -57,7 +56,7 @@
               </div>
               <light-box
                 ref="lightbox"
-                :show-caption="true"
+                :show-caption="false"
                 :media="media"
                 :show-light-box="true"
               />
@@ -82,6 +81,8 @@ export default {
           // srcset: '...', // Optional for displaying responsive images
           title: 'CV',
           fileImage: 'cv.jpg',
+          filePDF:
+            'https://drive.google.com/file/d/1kX9xl4-ntz_RUGzQTr3Es66U8NyRAsSW/view?usp=sharing',
         },
         {
           // For image
@@ -90,7 +91,8 @@ export default {
           caption: 'caption to display. receive <html> <b>tag</b>', // Optional
           srcset: require('~/assets/img/profile/transcript.jpg'), // Optional for displaying responsive images
           title: 'Transcript',
-          fileImage: 'transcript.jpg',
+          filePDF:
+            'https://drive.google.com/file/d/1LBnITZflgfDxGWKBPg1FtL2EFCXyqtJN/view?usp=sharing',
         },
       ],
     }
@@ -99,8 +101,9 @@ export default {
     openGallery(index) {
       this.$refs.lightbox.showImage(index)
     },
-    downloadPDF(src) {},
-    downloadJPG(src) {},
+    openLink: src => {
+      window.open(src, '_blank')
+    },
   },
 }
 </script>

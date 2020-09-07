@@ -78,23 +78,21 @@
               <div class="pl-lg-4">
                 <div class="row">
                   <div class="col content">
-                    &emsp;&emsp;&emsp;&emsp; Hi, my name is Sarawut Nawawisitkul and I'm a junior
-                    software engineer. Welcome to my personal website!
+                    &emsp;&emsp;&emsp;&emsp; Hi, my name is Sarawut Nawawisitkul and I'm a software
+                    engineer.I want you to know me better. Welcome to my personal website!
                   </div>
                 </div>
                 <div class="row mt-4">
                   <div class="col content">
                     &emsp;&emsp;&emsp;&emsp; I graduated from Prince of Songkla University Phuket
-                    Campus’ within the College of Computing in Software Engineering Program. I
-                    looking for a software developer position with software concepts and services,
-                    education, skills and skills will be fully utilized to improve the overall
-                    efficiency of the company.
+                    Campus’ within the College of Computing in Software Engineering Program.I always
+                    like to learn new technology in order to apply it to my work.
                   </div>
                 </div>
                 <div class="row mt-4">
                   <div class="col content">
-                    &emsp;&emsp;&emsp;&emsp; Now I have 1 year working experience. I want to find a
-                    new, interesting job. I am interested in backend developer work.
+                    &emsp;&emsp;&emsp;&emsp; Now I have 2 years working experience.I hope you want
+                    to know more about me, thank you.
                   </div>
                 </div>
               </div>

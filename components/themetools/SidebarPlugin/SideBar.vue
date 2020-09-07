@@ -14,7 +14,7 @@
 
       <slot name="mobile-right">
         <ul class="nav align-items-center d-md-none">
-          <base-dropdown class="nav-item" position="right">
+          <!-- <base-dropdown class="nav-item" position="right">
             <a
               slot="title"
               class="nav-link nav-link-icon"
@@ -67,7 +67,7 @@
               <i class="ni ni-user-run" />
               <span>Logout</span>
             </router-link>
-          </base-dropdown>
+          </base-dropdown> -->
         </ul>
       </slot>
       <slot />
@@ -153,3 +153,11 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+@media only screen and (max-device-width: 640px) {
+  .navbar-brand-img {
+    display: none;
+  }
+}
+</style>

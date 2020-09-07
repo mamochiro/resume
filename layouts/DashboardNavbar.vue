@@ -25,16 +25,20 @@
 
           <template>
             <router-link to="/" class="dropdown-item">
-              <i class="ni ni-single-02"></i>
-              <span>My Infomation</span>
+              <i class="fa fa-user"></i>
+              <span>About Me</span>
             </router-link>
             <router-link to="/skills" class="dropdown-item">
-              <i class="ni ni-settings-gear-65"></i>
+              <i class="fa fa-play"></i>
               <span>Skills</span>
             </router-link>
             <router-link to="/experience" class="dropdown-item">
-              <i class="ni ni-calendar-grid-58"></i>
-              <span>Experience</span>
+              <i class="fa fa-briefcase"></i>
+              <span>Work Experience</span>
+            </router-link>
+            <router-link to="/transcript" class="dropdown-item">
+              <i class="fa fa-file"></i>
+              <span>CV And Transcript</span>
             </router-link>
           </template>
         </base-dropdown>

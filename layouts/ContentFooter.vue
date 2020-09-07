@@ -7,11 +7,11 @@
           <p><i class="ni ni-email-83"></i> Email : sarawut.nawawisitkul@gmail.com</p>
           <p><i class="ni ni-mobile-button"></i> Phone : 091-8363922</p>
           <p>
-            <i class="ni ni-laptop"></i> Gitlab :
+            <i class="fa fa-gitlab"></i> Gitlab :
             <a href="https://gitlab.com/mamochiro">https://gitlab.com/mamochiro</a>
           </p>
           <p>
-            <i class="ni ni-laptop"></i> Github :
+            <i class="fa fa-github"></i> Github :
             <a href="https://github.com/mamochiro">https://github.com/mamochiro</a>
           </p>
         </div>

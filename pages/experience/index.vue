@@ -27,7 +27,8 @@
                       <div class="h5 mt-4">SOFTWARE ENGINEER</div>
                       <div class="h5 mt-4">MAR 2019 - Present (Full-Time)</div>
                       <div class="text-left">
-                        Doing something
+                        Currently working in the position of Software Engineer, I work in back-end
+                        section, make api platform by GOLang and Node.JS
                       </div>
                     </div>
                   </timeline-title>

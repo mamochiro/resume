@@ -12,7 +12,7 @@
           <div class="col-lg-7 col-md-10">
             <h1 class="display-2 text-white">What I do</h1>
             <p class="text-white mt-0 mb-5">
-              I have more than 1 year experience building software for clients. Below is a quick
+              I have more than 2 years experience building software for clients. Below is a quick
               overview of my main technical skill sets and technologies I use.
             </p>
           </div>
