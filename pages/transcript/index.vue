@@ -42,15 +42,23 @@
                     />
                   </div>
                   <div class="card-footer d-flex justify-content-around">
-                    <base-button type="default" @click="openGallery(index)">Preview</base-button>
-                    <a :download="image.title" :href="image.src">
-                      <base-button type="primary">
-                        <i class="ni ni-image"></i> Download JPG</base-button
-                      >
-                    </a>
-                    <base-button type="danger" @click="openLink(image.filePDF)">
-                      <i class="ni ni-single-copy-04"></i> Download PDF</base-button
-                    >
+                    <div class="row">
+                      <div class="col-4">
+                        <base-button type="default" @click="openGallery(index)"
+                          ><i class="fa fa-eye"></i> Preview</base-button
+                        >
+                      </div>
+                      <div class="col-4">
+                        <a :download="image.title" :href="image.src">
+                          <base-button type="primary"> <i class="ni ni-image"></i> JPG</base-button>
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <base-button type="danger" @click="openLink(image.filePDF)">
+                          <i class="ni ni-single-copy-04"></i> PDF</base-button
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
