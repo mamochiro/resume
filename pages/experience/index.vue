@@ -160,7 +160,7 @@ export default {
 <style lang="scss" scoped>
 .tools {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   .img {
     width: 100px;
