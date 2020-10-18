@@ -26,9 +26,33 @@
                       </h3>
                       <div class="h5 mt-4">SOFTWARE ENGINEER</div>
                       <div class="h5 mt-4">MAR 2019 - Present (Full-Time)</div>
-                      <div class="text-left">
+                      <div class="text-left mt-4">
                         Currently working in the position of Software Engineer, I work in back-end
-                        section, make api platform by GOLang and Node.JS
+                        section, build api platform by GOLang and Node.JS
+                        <ul>
+                          <li>
+                            ROA (Robowealth Open API) Used for trading and investment
+                          </li>
+                          <li>
+                            Build software by microservice concept
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mt-4">
+                        <h5>Tools</h5>
+                        <div class="row tools">
+                          <img class="img p-1" :src="require('~/assets/tools/go.png')" alt="" />
+                          <img class="img p-1" :src="require('~/assets/tools/grpc.png')" alt="" />
+                          <img class="img p-1" :src="require('~/assets/tools/node.png')" alt="" />
+                          <img class="img p-1" :src="require('~/assets/tools/gql.png')" alt="" />
+                          <img class="img p-1" :src="require('~/assets/tools/gcp.png')" alt="" />
+                          <img class="img p-1" :src="require('~/assets/tools/docker.png')" alt="" />
+                          <img
+                            class="img p-1"
+                            :src="require('~/assets/tools/jenkins.jpeg')"
+                            alt=""
+                          />
+                        </div>
                       </div>
                     </div>
                   </timeline-title>
@@ -46,7 +70,7 @@
                             Mother's day website campaign of nexcare 3m
                           </li>
                           <li>
-                            Edit the system of
+                            Tour website
                             <a href="https://www.wevacationcenter.com/"
                               >https://www.wevacationcenter.com/</a
                             >
@@ -60,7 +84,20 @@
                           <li>
                             Sharp Thailand web dashboard
                           </li>
+                          <li>
+                            Other ...
+                          </li>
                         </ul>
+                      </div>
+                      <div class="mt-4">
+                        <h5>Tools</h5>
+                        <div class="row tools">
+                          <img class="img p-2" :src="require('~/assets/tools/llv.png')" alt="" />
+                          <img class="img p-2" :src="require('~/assets/tools/jquery.png')" alt="" />
+                          <img class="img p-2" :src="require('~/assets/tools/node.png')" alt="" />
+                          <img class="img p-2" :src="require('~/assets/tools/gql.png')" alt="" />
+                          <img class="img p-2" :src="require('~/assets/tools/nuxt.png')" alt="" />
+                        </div>
                       </div>
                     </div>
                   </timeline-item>
@@ -89,6 +126,13 @@
                           </li>
                         </ul>
                       </div>
+                      <div class="mt-4">
+                        <h5>Tools</h5>
+                        <div class="tools">
+                          <img class="img p-2" :src="require('~/assets/tools/php.png')" alt="" />
+                          <img class="img p-2" :src="require('~/assets/tools/node.png')" alt="" />
+                        </div>
+                      </div>
                     </div>
                   </timeline-item>
                 </timeline>
@@ -112,4 +156,15 @@ export default {
   },
 }
 </script>
-<style></style>
+
+<style lang="scss" scoped>
+.tools {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+}
+</style>

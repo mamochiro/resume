@@ -36,10 +36,10 @@
               <i class="fa fa-briefcase"></i>
               <span>Work Experience</span>
             </router-link>
-            <router-link to="/transcript" class="dropdown-item">
+            <!-- <router-link to="/transcript" class="dropdown-item">
               <i class="fa fa-file"></i>
               <span>CV And Transcript</span>
-            </router-link>
+            </router-link> -->
           </template>
         </base-dropdown>
       </li>
